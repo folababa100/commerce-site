@@ -1,0 +1,58 @@
+.stat {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-brand {
+  background-color: #5eacd0 !important;
+}
+
+.stat--time {
+  padding-right: 15px;
+  margin-top: $size;
+  margin-bottom: $size;
+}
+
+.post--title {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.post--body {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.a {
+  color: black;
+  font-weight: 500;
+  width: 89%;
+}
+
+.a:hover {
+  color: black;
+}
+
+.error {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.mt {
+  margin-top: 2rem !important; 
+}
+
+.no-radius {
+  border-radius: 0px;
+}
+
+.card--adjust {
+  height: 37rem;
+  width: 27rem;
+}
+
+.btn-radius {
+  width: 4rem;
+  border-radius: 2rem;
+  height: 4rem;
+}
