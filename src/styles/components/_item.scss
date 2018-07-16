@@ -7,6 +7,17 @@
   background-color: #5eacd0 !important;
 }
 
+
+.aa {
+  color: white;
+  text-decoration: none;
+}
+
+.aa:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .stat--time {
   padding-right: 15px;
   margin-top: $size;
@@ -47,8 +58,7 @@
 }
 
 .card--adjust {
-  height: 37rem;
-  width: 27rem;
+  height: 32rem;
 }
 
 .btn-radius {

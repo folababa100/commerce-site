@@ -8,7 +8,9 @@ export const Header = ({ startLogout }) => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark nav-brand">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">FF-Iniattive</a>
+          <NavLink className="aa navbar-brand" to="/dashboard">
+            <img width="30" height="30" src="/images/fola-logo.png" className="d-inline-block align-top" alt="FF-Initiative Logo"/>
+          </NavLink>
           {/* <button NclassName="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button> */}
@@ -26,6 +28,7 @@ export const Header = ({ startLogout }) => {
               </li>
             </ul>
           </div>
+          <button className="btn mr-sm-2" onClick={startLogout}>Logout</button>
         </div>
       </nav>
     </div>
