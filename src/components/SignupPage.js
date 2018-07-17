@@ -1,15 +1,12 @@
 import React from 'react';
+import SignUpDesign from './SignUpDesign'
 
-const SignupPage = (props) => {
+const SignupPage = () => {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="form-control">
-          <form></form>
-        </div>
-      </div>
+    <div>
+      <SignUpDesign/>
     </div>
   )
 }
 
-export default SignupPage
+export default SignupPage;

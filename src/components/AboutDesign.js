@@ -6,7 +6,7 @@ const AboutDesign = (props) => {
       <div className="row">
         <div className="col-12 col-col-md-8 col-lg-6">
           <div className="text-center">
-            <h1>Welcome to our about page</h1>
+            <h3>Welcome to our about page</h3>
           </div>
         </div>
       </div>

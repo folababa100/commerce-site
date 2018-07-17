@@ -19,3 +19,14 @@ export const addProduct = (
     createdAt
   }
 })
+
+export const removeProduct = ({ id } = {}) => ({
+  type: 'REMOVE_PRODUCTS',
+  id
+})
+
+export const editProduct = (id, updates) => ({
+  type: 'EDIT_PRODUCTS',
+  id,
+  updates
+})

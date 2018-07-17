@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render component 1`] = `
+<div
+  className="box-layout"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row justify-content-center"
+    >
+      <div
+        className="col-12 col-sm-8 col-md-6 col-lg-3"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <h3
+              className="text-center"
+            >
+              Login
+            </h3>
+            <form
+              className="mt-4"
+            >
+              <div
+                className="form-group"
+              >
+                <label
+                  htmlFor="Email1"
+                >
+                  Email address
+                </label>
+                <input
+                  className="form-control"
+                  id="Email1"
+                  placeholder="Enter your email"
+                  type="text"
+                />
+              </div>
+              <div
+                className="form-group"
+              >
+                <label
+                  htmlFor="Password1"
+                >
+                  Password
+                </label>
+                <input
+                  className="form-control"
+                  id="Password1"
+                  placeholder="Enter your password"
+                  type="password"
+                />
+              </div>
+              <button
+                className="btn btn-primary btn-block"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
