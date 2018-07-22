@@ -26,7 +26,7 @@ exports[`should render Header correctly 1`] = `
         id="navbarNav"
       >
         <ul
-          className="navbar-nav"
+          className="mr-auto navbar-nav"
         >
           <li
             className="nav-item"
@@ -63,6 +63,15 @@ exports[`should render Header correctly 1`] = `
           </li>
         </ul>
       </div>
+      <form
+        className="mr-4"
+      >
+        <input
+          className="form-control"
+          placeholder="Search Products"
+          type="search"
+        />
+      </form>
       <button
         className="btn mr-sm-2"
         onClick={[Function]}

@@ -15,7 +15,7 @@ export const Header = ({ startLogout }) => {
             <span className="navbar-toggler-icon"></span>
           </button> */}
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+            <ul className="mr-auto navbar-nav">
               <li className="nav-item">
                 {/* <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a> */}
                 <NavLink to="/dashboard" className="nav-link">Home</NavLink>
@@ -28,6 +28,9 @@ export const Header = ({ startLogout }) => {
               </li>
             </ul>
           </div>
+          <form className="mr-4">
+            <input type="search" className="form-control" placeholder="Search Products"/>
+          </form>
           <button className="btn mr-sm-2" onClick={startLogout}>Logout</button>
         </div>
       </nav>
