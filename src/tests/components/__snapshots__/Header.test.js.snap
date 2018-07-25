@@ -3,7 +3,7 @@
 exports[`should render Header correctly 1`] = `
 <div>
   <nav
-    className="navbar navbar-expand-lg navbar-dark nav-brand"
+    className="navbar navbar-expand-lg snorkel-blue navbar-dark"
   >
     <div
       className="container-fluid"
@@ -56,6 +56,17 @@ exports[`should render Header correctly 1`] = `
             <NavLink
               activeClassName="active"
               className="nav-link"
+              to="/contacts"
+            >
+              Contacts
+            </NavLink>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <NavLink
+              activeClassName="active"
+              className="nav-link"
               to="/about"
             >
               About
@@ -67,7 +78,7 @@ exports[`should render Header correctly 1`] = `
         className="mr-4"
       >
         <input
-          className="form-control"
+          className="form-control reset-form"
           placeholder="Search Products"
           type="search"
         />

@@ -6,7 +6,7 @@ import { startLogout } from '../actions/auth';
 export const Header = ({ startLogout }) => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark nav-brand">
+      <nav className="navbar navbar-expand-lg snorkel-blue navbar-dark">
         <div className="container-fluid">
           <NavLink className="aa navbar-brand" to="/dashboard">
             <img width="30" height="30" src="/images/fola-logo.png" className="d-inline-block align-top" alt="FF-Initiative Logo"/>
@@ -24,12 +24,15 @@ export const Header = ({ startLogout }) => {
                 <NavLink to="/services" className="nav-link">Services</NavLink>
               </li>
               <li className="nav-item">
+                <NavLink to="/contacts" className="nav-link">Contacts</NavLink>
+              </li>
+              <li className="nav-item">
                 <NavLink to="/about" className="nav-link">About</NavLink>
               </li>
             </ul>
           </div>
           <form className="mr-4">
-            <input type="search" className="form-control" placeholder="Search Products"/>
+            <input type="search" className="form-control reset-form" placeholder="Search Products"/>
           </form>
           <button className="btn mr-sm-2" onClick={startLogout}>Logout</button>
         </div>

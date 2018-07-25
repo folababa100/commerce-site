@@ -1,12 +1,12 @@
 import React from 'react';
 
-const ServiceDesign = () => {
+const ContactDesign = () => {
   return (
     <div className="container">
       <div className="row">
         <div className="col-12">
           <div className="text-center">
-            <h3>Welcome to our service page</h3>
+            <h3>Welcome to our Contact Page</h3>
           </div>
         </div>
       </div>
@@ -14,4 +14,4 @@ const ServiceDesign = () => {
   )
 }
 
-export default ServiceDesign;
+export default ContactDesign;

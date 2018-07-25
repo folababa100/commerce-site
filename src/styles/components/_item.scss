@@ -3,6 +3,67 @@
   justify-content: space-between;
 }
 
+.light {
+  color: white;
+}
+
+.snorkel-blue__color {
+  color: $snorkel-blue;
+}
+
+.x3 {
+  font-size: 2rem;
+}
+
+.round {
+  height: 3rem;
+  width: 3rem;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.light-weight {
+  font-weight: 200;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.bd-lead {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.btn:focus {
+  outline: 0;
+  background-color: $serenity;
+  background-image: none;
+  border-color: $serenity;
+  box-shadow: 0 0 0 0.2rem rgba(181, 196, 223, 0.34);
+  color: black;
+}
+
+.btn {
+  background-color: transparent;
+  background-image: none;
+  border-color: $serenity;
+  color: $serenity;
+}
+
+.btn:hover {
+  background-color: $serenity;
+  color: black;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(181, 196, 223, 0.34);
+}
+
 .nav-brand {
   background-color: #5eacd0 !important;
 }

@@ -1,8 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should correctly render component 1`] = `
-<div>
+<div
+  className="lay"
+>
   <Connect(Header) />
   <AboutDesign />
+  <DashboardFooter />
 </div>
 `;

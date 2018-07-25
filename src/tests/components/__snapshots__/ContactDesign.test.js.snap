@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should correctly render component 1`] = `
+exports[`should render component correctly 1`] = `
 <div
   className="container"
 >
@@ -14,7 +14,7 @@ exports[`should correctly render component 1`] = `
         className="text-center"
       >
         <h3>
-          Welcome to our service page
+          Welcome to our Contact Page
         </h3>
       </div>
     </div>

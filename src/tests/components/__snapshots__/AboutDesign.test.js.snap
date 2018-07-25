@@ -8,14 +8,24 @@ exports[`should render component correctly 1`] = `
     className="row"
   >
     <div
-      className="col-12 col-col-md-8 col-lg-6"
+      className="col-12"
     >
       <div
-        className="text-center"
+        className="mt-4"
       >
-        <h3>
-          Welcome to our about page
-        </h3>
+        <h1
+          className="light-weight"
+        >
+          Welcome to FF-Initiative
+        </h1>
+        <p
+          className="bd-lead"
+        >
+          Welcome to our company, it is our pleasure you are on our website.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas ipsum dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas dolor sit amet, consectetur adipisicing elit. Molestias ipsum eum enim, cumque porro at aliquam voluptatem commodi quia error, consequatur, beatae ea tempora illum veritatis nostrum expedita nisi quas.
+        </p>
       </div>
     </div>
   </div>

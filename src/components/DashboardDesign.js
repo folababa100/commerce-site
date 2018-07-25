@@ -1,12 +1,12 @@
 import React from 'react';
-import { DashboardMain } from "./DashboardMain";
-import DashboardFooter from "./DashboardFooter";
+import DashboardMain from "./DashboardMain";
+// import DashboardFooter from "./DashboardFooter";
 
 const DashboardDesign = () => {
   return (
     <div>
       <DashboardMain/>
-      <DashboardFooter/>
+      {/* <DashboardFooter/> */}
     </div>
   )
 }

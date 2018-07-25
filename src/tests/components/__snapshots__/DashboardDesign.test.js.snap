@@ -2,7 +2,6 @@
 
 exports[`should correctly render component correctly 1`] = `
 <div>
-  <DashboardMain />
-  <DashboardFooter />
+  <Connect(DashboardMain) />
 </div>
 `;
