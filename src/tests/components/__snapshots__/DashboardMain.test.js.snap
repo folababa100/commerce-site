@@ -5,36 +5,44 @@ exports[`should render component correctly with list of products 1`] = `
   className="container"
 >
   <div
-    className="container"
+    className="row"
   >
-    <div
-      className="row"
+    <DashboardItem
+      createdAt={0}
+      description="A smartphone"
+      id={0}
+      name="Samsung Phone"
+      price={0}
+      seller="Slot Limited"
+    />
+    <DashboardItem
+      createdAt={1}
+      description="An elegant smartphone"
+      id={1}
+      name="Iphone Phone"
+      price={1}
+      seller="Jumia Limited"
+    />
+    <DashboardItem
+      createdAt={2}
+      description="A low coat smartphone"
+      id={2}
+      name="Tecno Phone"
+      price={2}
+      seller="Unknown Limited"
+    />
+    <button
+      className="btn-floating"
+      style={
+        Object {
+          "outline": "none",
+        }
+      }
     >
-      <DashboardItem
-        createdAt={0}
-        description="A smartphone"
-        id={0}
-        name="Samsung Phone"
-        price={0}
-        seller="Slot Limited"
+      <i
+        className="ion-edit"
       />
-      <DashboardItem
-        createdAt={1}
-        description="An elegant smartphone"
-        id={1}
-        name="Iphone Phone"
-        price={1}
-        seller="Jumia Limited"
-      />
-      <DashboardItem
-        createdAt={2}
-        description="A low coat smartphone"
-        id={2}
-        name="Tecno Phone"
-        price={2}
-        seller="Unknown Limited"
-      />
-    </div>
+    </button>
   </div>
 </main>
 `;
@@ -44,15 +52,23 @@ exports[`should render component with empty products 1`] = `
   className="container"
 >
   <div
-    className="container"
+    className="row"
   >
-    <div
-      className="row"
+    <p>
+      No products available yet
+    </p>
+    <button
+      className="btn-floating"
+      style={
+        Object {
+          "outline": "none",
+        }
+      }
     >
-      <p>
-        No products available yet
-      </p>
-    </div>
+      <i
+        className="ion-edit"
+      />
+    </button>
   </div>
 </main>
 `;

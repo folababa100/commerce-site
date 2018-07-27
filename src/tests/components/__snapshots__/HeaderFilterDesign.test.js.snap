@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component correctly 1`] = `
+<div>
+  <nav
+    className="navbar navbar-adjust-all navbar-expand-lg navbar-light"
+  >
+    <div
+      className="container"
+    >
+      <NavLink
+        activeClassName="active"
+        className="aa navbar-brand brand-adjust"
+        to="/dashboard"
+      >
+        <img
+          alt="FF-Initiative Logo"
+          className="d-inline-block align-top"
+          height="70"
+          src="/images/fola-logo.png"
+          width="50"
+        />
+        FF-Initiative
+      </NavLink>
+      <form
+        className="mr-4 flex reset-search"
+      >
+        <input
+          className="form-control reset-form"
+          placeholder="Search Products"
+          type="search"
+        />
+        <button
+          className="btn reset-btn"
+        >
+          <i
+            className="ion-ios-search"
+          />
+        </button>
+      </form>
+      <ul
+        className="navbar-nav"
+      >
+        <li
+          className="nav-item flex"
+        >
+          <i
+            className="ion-android-favorite-outline x3"
+          />
+          <NavLink
+            activeClassName="active"
+            className="nav-link line-adjust"
+            to="/store-locator"
+          >
+            Liked Items
+          </NavLink>
+        </li>
+        <li
+          className="nav-item flex"
+        >
+          <i
+            className="ion-ios-cart-outline x3"
+          />
+          <NavLink
+            activeClassName="active"
+            className="nav-link line-adjust"
+            to="/dial"
+          >
+            Cart
+          </NavLink>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+`;

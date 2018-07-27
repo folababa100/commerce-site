@@ -11,54 +11,77 @@ exports[`should correctly render component 1`] = `
       className="row justify-content-center"
     >
       <div
-        className="col-12 col-sm-8 col-md-6 col-lg-3"
+        className="col-12 col-sm-8 col-md-6 col-lg-4"
       >
         <div
-          className="card"
+          className="card card--adjust"
         >
           <div
-            className="card-body"
+            className="card-body text-center"
           >
-            <h3
-              className="text-center"
-            >
-              Login
-            </h3>
+            <h1>
+              Sign Up
+            </h1>
             <form
               className="mt-4"
             >
+              <button
+                className="btn btn-block btn-primary"
+              >
+                <i
+                  className="mr-5 icon ion-social-facebook"
+                />
+                Sign in with Facebook
+              </button>
+              <button
+                className="btn btn-block btn-danger mb-2"
+              >
+                <i
+                  className=" mr-5 icon ion-social-google"
+                />
+                Sign in with Google
+              </button>
+              <h1>
+                Or
+              </h1>
               <div
                 className="form-group"
               >
-                <label
-                  htmlFor="Email1"
-                >
-                  Email address
-                </label>
                 <input
                   className="form-control"
-                  id="Email1"
-                  placeholder="Enter your email"
+                  placeholder="Enter Full Name"
                   type="text"
                 />
               </div>
               <div
                 className="form-group"
               >
-                <label
-                  htmlFor="Password1"
-                >
-                  Password
-                </label>
                 <input
                   className="form-control"
-                  id="Password1"
-                  placeholder="Enter your password"
+                  placeholder="Enter email"
+                  type="email"
+                />
+              </div>
+              <div
+                className="form-group"
+              >
+                <input
+                  className="form-control"
+                  placeholder="Enter phone number"
+                  type="text"
+                />
+              </div>
+              <div
+                className="form-group"
+              >
+                <input
+                  className="form-control"
+                  placeholder="Password"
                   type="password"
                 />
               </div>
               <button
-                className="btn btn-primary btn-block"
+                className="btn bb btn-primary btn-block"
               >
                 Submit
               </button>

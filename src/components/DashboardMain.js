@@ -6,18 +6,19 @@ import selectProduct from '../selectors/products'
 export const DashboardMain = (props) => {
   return (
     <main className="container">
-      <div className="container">
-        <div className="row">
-          {
-            props.products.length === 0 ? (
-              <p>No products available yet</p>
-            ) : (
+      <div className="row">
+        {
+          props.products.length === 0 ? (
+            <p>No products available yet</p>
+          ) : (
               props.products.map((product) => {
                 return <DashboardItem key={product.id} {...product} />
               })
             )
-          }
-        </div>
+        }
+        <button style={{outline: 'none'}} className="btn-floating">
+          <i className="ion-edit"></i>
+        </button>
       </div>
     </main>
   )

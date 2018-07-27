@@ -4,7 +4,7 @@ exports[`should correctly render component 1`] = `
 <div
   className="lay"
 >
-  <Connect(Header) />
+  <Header />
   <AboutDesign />
   <DashboardFooter />
 </div>

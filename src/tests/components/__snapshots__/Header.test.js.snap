@@ -1,95 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render Header correctly 1`] = `
-<div>
-  <nav
-    className="navbar navbar-expand-lg snorkel-blue navbar-dark"
-  >
-    <div
-      className="container-fluid"
-    >
-      <NavLink
-        activeClassName="active"
-        className="aa navbar-brand"
-        to="/dashboard"
-      >
-        <img
-          alt="FF-Initiative Logo"
-          className="d-inline-block align-top"
-          height="30"
-          src="/images/fola-logo.png"
-          width="30"
-        />
-      </NavLink>
-      <div
-        className="collapse navbar-collapse"
-        id="navbarNav"
-      >
-        <ul
-          className="mr-auto navbar-nav"
-        >
-          <li
-            className="nav-item"
-          >
-            <NavLink
-              activeClassName="active"
-              className="nav-link"
-              to="/dashboard"
-            >
-              Home
-            </NavLink>
-          </li>
-          <li
-            className="nav-item"
-          >
-            <NavLink
-              activeClassName="active"
-              className="nav-link"
-              to="/services"
-            >
-              Services
-            </NavLink>
-          </li>
-          <li
-            className="nav-item"
-          >
-            <NavLink
-              activeClassName="active"
-              className="nav-link"
-              to="/contacts"
-            >
-              Contacts
-            </NavLink>
-          </li>
-          <li
-            className="nav-item"
-          >
-            <NavLink
-              activeClassName="active"
-              className="nav-link"
-              to="/about"
-            >
-              About
-            </NavLink>
-          </li>
-        </ul>
-      </div>
-      <form
-        className="mr-4"
-      >
-        <input
-          className="form-control reset-form"
-          placeholder="Search Products"
-          type="search"
-        />
-      </form>
-      <button
-        className="btn mr-sm-2"
-        onClick={[Function]}
-      >
-        Logout
-      </button>
-    </div>
-  </nav>
+<div
+  className="header"
+>
+  <Connect(HeaderDesign) />
+  <HeaderFilterDesign />
+  <HeaderFilterSearch />
 </div>
 `;

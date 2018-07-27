@@ -3,12 +3,46 @@
   justify-content: space-between;
 }
 
+.btn-floating {
+  outline: none;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-color: $butercup;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: background-color .3s;
+  z-index: 1;
+  position: relative;
+  border: none;
+  text-decoration: none;
+}
+
 .light {
   color: white;
 }
 
 .snorkel-blue__color {
   color: $snorkel-blue;
+}
+
+.brand-adjust {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-adjust {
+  padding: 0.1rem 1rem;
+}
+
+.line-adjust {
+  line-height: 2;
+}
+
+.navbar-adjust-all {
+  padding: 0.4rem 1rem;
 }
 
 .x3 {
@@ -68,7 +102,6 @@
   background-color: #5eacd0 !important;
 }
 
-
 .aa {
   color: white;
   text-decoration: none;
@@ -111,7 +144,7 @@
 }
 
 .mt {
-  margin-top: 2rem !important; 
+  margin-top: 2rem !important;
 }
 
 .no-radius {
