@@ -1,12 +1,14 @@
 import React from 'react';
+import DashboardFooter from './DashboardFooter';
 import Header from './Header';
 import SellDesign from './SellDesign';
 
 const SellPage = () => {
   return (
     <div>
-      <Header/>
-      <SellDesign/>
+      <Header />
+      <SellDesign />
+      <DashboardFooter />
     </div>
   )
 }

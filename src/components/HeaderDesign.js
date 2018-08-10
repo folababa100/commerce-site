@@ -5,7 +5,7 @@ import { startLogout } from '../actions/auth';
 
 export const HeaderDesign = ({ startLogout }) => {
   return (
-    <div>
+    <div className="white-color">
       <nav className="navbar navbar-adjust-all navbar-expand-lg navbar-light">
         <div className="container">
           <div className="collapse navbar-collapse" id="navbarNav">

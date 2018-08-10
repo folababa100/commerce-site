@@ -2,7 +2,7 @@
 
 exports[`should render component correctly 1`] = `
 <nav
-  className="navbar navbar-adjust navbar-expand-lg navbar-dark snorkel-blue"
+  className="navbar navbar-adjust navbar-expand-lg navbar-dark snorkel-blue nav-border"
 >
   <div
     className="container"

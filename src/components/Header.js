@@ -5,11 +5,11 @@ import HeaderFilterSearch from './HeaderFilterSearch';
 
 const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
       <HeaderDesign/>
       <HeaderFilterDesign/>
       <HeaderFilterSearch/>
-    </div>
+    </header>
   )
 }
 

@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from './Header';
-import AboutDesign from './AboutDesign';
+import LikeDesign from './LikeDesign';
 import DashboardFooter from './DashboardFooter';
 
-const AboutPage = () => {
+const LikePage = () => {
   return (
-    <div className="back-color lay">
+    <div>
       <Header/>
-      <AboutDesign/>
+      <LikeDesign/>
       <DashboardFooter/>
     </div>
   )
-};
+}
 
-export default AboutPage;
+export default LikePage;

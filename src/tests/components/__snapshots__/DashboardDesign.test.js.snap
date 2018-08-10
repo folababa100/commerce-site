@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should correctly render component correctly 1`] = `
-<div>
+<div
+  className="back-color"
+>
   <Connect(DashboardMain) />
 </div>
 `;

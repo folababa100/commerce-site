@@ -4,7 +4,7 @@ import DashboardMain from "./DashboardMain";
 
 const DashboardDesign = () => {
   return (
-    <div>
+    <div className="back-color">
       <DashboardMain/>
       {/* <DashboardFooter/> */}
     </div>

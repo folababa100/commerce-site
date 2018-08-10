@@ -1,16 +1,16 @@
 import React from 'react';
-import DashboardFooter from './DashboardFooter';
+import CartDesign from './CartDesign';
 import Header from './Header';
-import FaqDesign from './FaqDesign';
+import DashboardFooter from './DashboardFooter';
 
-const Faq = () => {
+const CartPage = () => {
   return (
     <div className="back-color">
       <Header/>
-      <FaqDesign/>
+      <CartDesign/>
       <DashboardFooter/>
     </div>
   )
 }
 
-export default Faq;
+export default CartPage;

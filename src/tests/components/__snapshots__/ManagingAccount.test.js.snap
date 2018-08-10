@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component correctly 1`] = `
+<div>
+  <button
+    className="faq-btn btn btn-lg"
+    onClick={[Function]}
+    type="button"
+  >
+    Show All Answers
+  </button>
+  <div
+    className="container mt-4"
+    id="k"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12"
+      >
+        <h5
+          className="mb-5"
+        >
+          Managing Account
+        </h5>
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-12"
+            >
+              <p
+                onClick={[Function]}
+              >
+                How do I buy things (Shop) on Konga?
+              </p>
+              <div />
+              <hr
+                className="hr hr-full"
+              />
+              <p
+                onClick={[Function]}
+              >
+                Can I buy in bulk?
+              </p>
+              <div />
+              <hr
+                className="hr hr-full"
+              />
+              <p
+                onClick={[Function]}
+              >
+                Why do I see different prices for the same product?
+              </p>
+              <div />
+              <hr
+                className="hr hr-full"
+              />
+              <p
+                onClick={[Function]}
+              >
+                How do I save items to view later?
+              </p>
+              <div />
+              <hr
+                className="hr hr-full"
+              />
+              <p
+                onClick={[Function]}
+              >
+                What is buyer protection?
+              </p>
+              <div />
+              <hr
+                className="hr hr-full"
+              />
+              <p
+                onClick={[Function]}
+              >
+                What is the estimated delivery time? When can I expect my order to arrive?
+              </p>
+              <div />
+              <hr
+                className="hr hr-full"
+              />
+              <p
+                onClick={[Function]}
+              >
+                Why does the estimated delivery time vary?
+              </p>
+              <div />
+              <hr
+                className="hr hr-full"
+              />
+              <p
+                onClick={[Function]}
+              >
+                Who will deliver my Order?
+              </p>
+              <div />
+              <hr
+                className="hr hr-full"
+              />
+              <p
+                onClick={[Function]}
+              >
+                Will all of the items in my order arrive in a single package?
+              </p>
+              <div />
+              <hr
+                className="hr hr-full"
+              />
+              <p
+                onClick={[Function]}
+              >
+                My order is shipped. How can I track it?
+              </p>
+              <div />
+              <hr
+                className="hr hr-full"
+              />
+              <p
+                onClick={[Function]}
+              >
+                How do I cancel an order?
+              </p>
+              <div />
+              <hr
+                className="hr hr-full"
+              />
+              <p
+                onClick={[Function]}
+              >
+                How can I view and print the invoice for an order?
+              </p>
+              <div />
+              <hr
+                className="hr hr-full"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

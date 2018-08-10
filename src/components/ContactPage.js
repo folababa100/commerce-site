@@ -4,7 +4,7 @@ import ContactDesign from './ContactDesign';
 
 const ContactPage = () => {
   return (
-    <div>
+    <div className="back-color">
       <Header />
       <ContactDesign />
     </div>

@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render component correctly 1`] = `
-<div>
+<div
+  className="white-color"
+>
   <nav
     className="navbar navbar-adjust-all navbar-expand-lg navbar-light"
   >
@@ -11,7 +13,7 @@ exports[`should render component correctly 1`] = `
       <NavLink
         activeClassName="active"
         className="aa navbar-brand brand-adjust"
-        to="/dashboard"
+        to="/"
       >
         <img
           alt="FF-Initiative Logo"
@@ -26,7 +28,7 @@ exports[`should render component correctly 1`] = `
         className="mr-4 flex reset-search"
       >
         <input
-          className="form-control reset-form"
+          className="reset-form reset-form-radius"
           placeholder="Search Products"
           type="search"
         />
@@ -50,7 +52,7 @@ exports[`should render component correctly 1`] = `
           <NavLink
             activeClassName="active"
             className="nav-link line-adjust"
-            to="/store-locator"
+            to="/like"
           >
             Liked Items
           </NavLink>
@@ -64,7 +66,7 @@ exports[`should render component correctly 1`] = `
           <NavLink
             activeClassName="active"
             className="nav-link line-adjust"
-            to="/dial"
+            to="/cart"
           >
             Cart
           </NavLink>

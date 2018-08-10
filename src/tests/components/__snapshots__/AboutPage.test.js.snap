@@ -2,7 +2,7 @@
 
 exports[`should correctly render component 1`] = `
 <div
-  className="lay"
+  className="back-color lay"
 >
   <Header />
   <AboutDesign />

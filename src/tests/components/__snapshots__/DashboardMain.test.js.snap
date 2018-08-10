@@ -7,42 +7,66 @@ exports[`should render component correctly with list of products 1`] = `
   <div
     className="row"
   >
-    <DashboardItem
-      createdAt={0}
-      description="A smartphone"
-      id={0}
-      name="Samsung Phone"
-      price={0}
-      seller="Slot Limited"
-    />
-    <DashboardItem
-      createdAt={1}
-      description="An elegant smartphone"
-      id={1}
-      name="Iphone Phone"
-      price={1}
-      seller="Jumia Limited"
-    />
-    <DashboardItem
-      createdAt={2}
-      description="A low coat smartphone"
-      id={2}
-      name="Tecno Phone"
-      price={2}
-      seller="Unknown Limited"
-    />
-    <button
-      className="btn-floating"
-      style={
-        Object {
-          "outline": "none",
-        }
-      }
+    <div
+      className="col-12 mb-4"
     >
-      <i
-        className="ion-edit"
-      />
-    </button>
+      <div
+        className="mt-4"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <div
+              className="row"
+            >
+              <DashboardItem
+                createdAt={0}
+                description="A smartphone"
+                id={0}
+                name="Samsung Phone"
+                price={0}
+                seller="Slot Limited"
+              />
+              <DashboardItem
+                createdAt={1}
+                description="An elegant smartphone"
+                id={1}
+                name="Iphone Phone"
+                price={1}
+                seller="Jumia Limited"
+              />
+              <DashboardItem
+                createdAt={2}
+                description="A low coat smartphone"
+                id={2}
+                name="Tecno Phone"
+                price={2}
+                seller="Unknown Limited"
+              />
+              <div
+                className="fixed-action"
+              >
+                <button
+                  className="btn-floating"
+                  style={
+                    Object {
+                      "outline": "none",
+                    }
+                  }
+                >
+                  <i
+                    className="ion-edit"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 `;
@@ -54,21 +78,45 @@ exports[`should render component with empty products 1`] = `
   <div
     className="row"
   >
-    <p>
-      No products available yet
-    </p>
-    <button
-      className="btn-floating"
-      style={
-        Object {
-          "outline": "none",
-        }
-      }
+    <div
+      className="col-12 mb-4"
     >
-      <i
-        className="ion-edit"
-      />
-    </button>
+      <div
+        className="mt-4"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <div
+              className="row"
+            >
+              <p>
+                No products available yet
+              </p>
+              <div
+                className="fixed-action"
+              >
+                <button
+                  className="btn-floating"
+                  style={
+                    Object {
+                      "outline": "none",
+                    }
+                  }
+                >
+                  <i
+                    className="ion-edit"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 `;

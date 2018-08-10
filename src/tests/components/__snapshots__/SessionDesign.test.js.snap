@@ -2,10 +2,12 @@
 
 exports[`should render component correctly 1`] = `
 <div
-  className="back-color"
+  className="container"
 >
-  <Header />
-  <BulkPurchaseDesign />
-  <DashboardFooter />
+  <div
+    className="row"
+  >
+    Welcome to the session page
+  </div>
 </div>
 `;

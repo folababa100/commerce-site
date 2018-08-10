@@ -12,6 +12,8 @@ import Faq from '../components/Faq';
 import LocatorPage from '../components/LocatorPage';
 import BulkPurchasePage from '../components/BulkPurchasePage';
 import SellPage from '../components/SellPage';
+import CartPage from '../components/CartPage';
+import LikePage from '../components/LikePage';
 // import PrivateRoute from './PrivateRoute';
 import PublicRoute from './PublicRoute';
 
@@ -23,6 +25,8 @@ const AppRouter = () => (
       <Switch>
         <PublicRoute path="/" component={DashboardPage} exact={true} />
         <PublicRoute path="/about" component={AboutPage} />
+        <PublicRoute path="/cart" component={CartPage} />
+        <PublicRoute path="/like" component={LikePage} />
         <PublicRoute path="/signup" component={SignupPage} />
         <PublicRoute path="/login" component={LoginPage} />
         <PublicRoute path="/contacts" component={ContactPage}/>

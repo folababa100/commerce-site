@@ -3,7 +3,7 @@ import React from 'react';
 const DashboardFooter = () => {
   return (
     <footer>
-      <div className="snorkel-blue">
+      <div className="snorkel-blue-footer">
         <div className="container">
           <div className="row">
             <div className="col-3 mt-4 mb-4 text-left">
@@ -31,23 +31,23 @@ const DashboardFooter = () => {
               <h3 className="light">Follow Us</h3>
               <div className="row">
                 <div className="col-3">
-                  <div className="round white ml-2">
-                    <i className="ion-social-facebook ml-3 snorkel-blue__color x3"></i>
+                  <div className="round white ml-2 text-center">
+                    <i className="ion-social-youtube snorkel-blue__color x3"></i>
                   </div>
                 </div>
                 <div className="col-3">
-                  <div className="round white ml-2">
-                    <i className="ion-social-facebook ml-3 snorkel-blue__color x3"></i>
+                  <div className="round white ml-2 text-center">
+                    <i className="ion-social-googleplus snorkel-blue__color x3"></i>
                   </div>
                 </div>
                 <div className="col-3">
-                  <div className="round white ml-2">
-                    <i className="ion-social-facebook ml-3 snorkel-blue__color x3"></i>
+                  <div className="round white ml-2 text-center">
+                    <i className="ion-social-facebook snorkel-blue__color x3"></i>
                   </div>
                 </div>
                 <div className="col-3">
-                  <div className="round white ml-2">
-                    <i className="ion-social-facebook ml-3 snorkel-blue__color x3"></i>
+                  <div className="round white ml-2 text-center">
+                    <i className="ion-social-twitter snorkel-blue__color x3"></i>
                   </div>
                 </div>
               </div>

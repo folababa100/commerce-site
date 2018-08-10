@@ -4,5 +4,6 @@ exports[`should render component correctly 1`] = `
 <div>
   <Header />
   <SellDesign />
+  <DashboardFooter />
 </div>
 `;

@@ -3,7 +3,7 @@
 exports[`should render component correctly 1`] = `
 <footer>
   <div
-    className="snorkel-blue"
+    className="snorkel-blue-footer"
   >
     <div
       className="container"
@@ -113,10 +113,10 @@ exports[`should render component correctly 1`] = `
               className="col-3"
             >
               <div
-                className="round white ml-2"
+                className="round white ml-2 text-center"
               >
                 <i
-                  className="ion-social-facebook ml-3 snorkel-blue__color x3"
+                  className="ion-social-youtube snorkel-blue__color x3"
                 />
               </div>
             </div>
@@ -124,10 +124,10 @@ exports[`should render component correctly 1`] = `
               className="col-3"
             >
               <div
-                className="round white ml-2"
+                className="round white ml-2 text-center"
               >
                 <i
-                  className="ion-social-facebook ml-3 snorkel-blue__color x3"
+                  className="ion-social-googleplus snorkel-blue__color x3"
                 />
               </div>
             </div>
@@ -135,10 +135,10 @@ exports[`should render component correctly 1`] = `
               className="col-3"
             >
               <div
-                className="round white ml-2"
+                className="round white ml-2 text-center"
               >
                 <i
-                  className="ion-social-facebook ml-3 snorkel-blue__color x3"
+                  className="ion-social-facebook snorkel-blue__color x3"
                 />
               </div>
             </div>
@@ -146,10 +146,10 @@ exports[`should render component correctly 1`] = `
               className="col-3"
             >
               <div
-                className="round white ml-2"
+                className="round white ml-2 text-center"
               >
                 <i
-                  className="ion-social-facebook ml-3 snorkel-blue__color x3"
+                  className="ion-social-twitter snorkel-blue__color x3"
                 />
               </div>
             </div>

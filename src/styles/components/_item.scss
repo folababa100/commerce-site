@@ -3,6 +3,40 @@
   justify-content: space-between;
 }
 
+.hr-adjust {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h4 {
+  font-size: 1rem;
+}
+
+.faq-p {
+  font-family: initial;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.mb-7 {
+  margin-bottom: 4rem;
+}
+
+.hr {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  width: 95%;
+}
+
+.hr-full {
+  width: 100%;
+}
+
+.fixed-action {
+  position: fixed;
+  margin-left: 72rem;
+  margin-top: 22rem;
+}
+
 .btn-floating {
   outline: none;
   height: 4rem;
@@ -18,6 +52,26 @@
   position: relative;
   border: none;
   text-decoration: none;
+  text-align: center;
+}
+
+.btn-floating:hover {
+  color: white;
+  text-decoration: none;
+  background-color: darken($color: $butercup, $amount: 15%);
+  border-color: darken($color: $butercup, $amount: 15%);
+}
+
+.btn-floating:active {
+  color: white;
+  text-decoration: none;
+  background-color: darken($color: $butercup, $amount: 15%);
+  border-color: darken($color: $butercup, $amount: 15%);
+}
+
+.btn-floating:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(251, 232, 110, 0.73);
 }
 
 .light {
@@ -54,6 +108,11 @@
   width: 3rem;
   background-color: white;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.round:hover {
+  background-color: darken($color: white, $amount: 20%)
 }
 
 .light-weight {
@@ -65,7 +124,7 @@
 }
 
 .bd-lead {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 200;
 }
 
@@ -86,6 +145,11 @@
 }
 
 .btn:hover {
+  background-color: $serenity;
+  color: black;
+}
+
+.btn:active {
   background-color: $serenity;
   color: black;
 }
@@ -159,4 +223,19 @@
   width: 4rem;
   border-radius: 2rem;
   height: 4rem;
+}
+
+.faq-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  width: 23rem;
+  height: 4rem;
+  background-color: $serenity;
+  color: black;
+}
+
+.faq-btn:hover {
+  background-color: white;
 }
